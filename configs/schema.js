@@ -17,7 +17,7 @@ export const STUDY_MATERIAL_TABLE= pgTable('studyMaterial', {
     courseLayout:json(),
     createdBy:varchar().notNull(),
     status:varchar().default('Generating'),
-    date:date('date'),
+    date: date('date')
 })
 
 export const CHAPTER_NOTES_TABLE=pgTable('chapterNotes',{

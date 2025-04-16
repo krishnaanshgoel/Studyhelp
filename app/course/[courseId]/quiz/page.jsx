@@ -20,7 +20,7 @@ function Quiz() {
             studyType:'Quiz',
         })
         setQuizdata(res.data);
-        setQuiz(res.data.content)
+        setQuiz(res.data.content.questions)
         console.log(res.data.content[0])
     }
     const checkAnswer=(userSelectedOption,quiz)=>{

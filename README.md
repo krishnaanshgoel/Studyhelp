@@ -1,20 +1,3 @@
-## Project Description
-
-The project is a Next.js Full Stack AI-Powered LMS SaaS Platform designed to deliver on-demand, personalized learning content using advanced AI and modern web technologies. It bridges the gap between structured learning and accessibility by allowing users to input a topic, select a material type (exam prep, interview, learning, coding, etc.), and choose a difficulty level, after which the platform generates tailored course materials like outlines, notes, flashcards, and quizzes using Gemini AI.
-The system is optimized for scalability, real-time generation, and engagement, making it perfect for learners at all stages—from school students to competitive exam aspirants, job seekers, and lifelong learners. It also supports subscription-based access, interactive content, and real-time progress tracking.
-
-## Key Features
-
-(1) AI-Powered Personalized Content Generation
-(2) Material Type Personalization
-(3) Secure User Authentication with Clerk
-(4) Dynamic Learning Dashboard
-(5) Interactive Learning Tools
-(6) Stripe-Powered Payment System
-(7) Serverless Backend with Inngest
-(8) Neon Database (PostgreSQL)
-(9) Modern UI/UX
-
 ## Tech Stack
 
 Frontend: Next.js, React, Tailwind CSS
@@ -28,12 +11,6 @@ Payments: Stripe
 Backend: Inngest
 
 Database: Neon(PostgreSQL)
-
-## PPT LINK: 
-https://www.canva.com/design/DAGht_GhCBs/HNJl0qbh-r-DfH84FefDRQ/edit
-
-## DEMO VIDEO: 
-https://www.youtube.com/watch?v=R_kmvlX6et8
 
 ## Getting Started
 
