@@ -10,7 +10,11 @@ function ChapterList({ course }) {
 
       <div className='mt-2'>
         {CHAPTERS?.map((chapter, index) => (
-          <Link href={'/course/'+course.courseId+'/'+chapter.chapterTitle}  key={index}>
+          <Link 
+            /*href={'/course/'+course.courseId+'/'+chapter.chapterTitle}  key={index}>*/
+            href={`/course/${course.courseId}/chapter/${index + 1}`}
+            key={index}
+            >
           <div className= 'flex gap-5 items-center p-4 border shadow-md mb-2 rounded-lg cursor-pointer'>
             <h2 className='text-2xl'>{chapter?.emoji}</h2>
             <div>

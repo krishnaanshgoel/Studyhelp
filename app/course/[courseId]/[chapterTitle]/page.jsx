@@ -13,4 +13,4 @@ function page({setState}) {
   )
 }
 
-export default page
+export default page  
